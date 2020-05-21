@@ -1,0 +1,617 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,button,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,select,small,span,strike,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#header-top {
+    position: relative;
+    height: 101px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 2;
+}
+
+#IMAGE493 {
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+#IMAGE493 .ladi-image-background {
+    width: 200px;
+    height: 73.1034px;
+    background-image: url("src/tpbank-logo.png");
+}
+
+.ladi-image-background {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.header-button {
+    display: inline-block;
+    width: 95px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.header-content-button {display: inline-block;vertical-align: middle;}
+
+div#page-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.overlay-header {
+    height: 110px;
+    position: absolute;
+    background-color: rgb(73, 35, 104);
+    left: 0;
+    right: 0;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.overlay-main {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-image: url("src/huong_anh-20200229025418.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 559px;
+}
+
+.button-element:hover {
+    background: rgb(232, 105, 48);
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+#main-container-text {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    line-height: 50;
+    line-height: 50px;
+    top: 200px;
+}
+
+
+
+#PARAGRAPH657 {
+    font-size: 50px;
+}
+
+#PARAGRAPH658 {
+    font-size: 29px;
+}
+
+#PARAGRAPH659 {
+    font-size: 20px;
+}
+
+.button-register {
+    width: 160px;
+    display: inline-block;
+    line-height: 40px;
+    background-color: rgb(232, 105, 48);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button-register:hover {
+    background: black;
+    cursor: pointer;
+}
+
+#Main-image {
+    height: 568px;
+}
+
+#title-form {
+    margin: 30px 0;
+}
+
+p.title-text-form.title-1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(74, 35, 104);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+p.title-text-form.title-2 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(74, 35, 104);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+p.input-line {
+    display: inline-block;
+    width: 49%;
+    height: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+
+input.input-text {
+    display: block;
+    border: 1px solid #e0e0e0;
+    background-color: transparent;
+    padding: 15px 20px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+p.input-line {}
+
+select.input-text {display: block;border: 1px solid #e0e0e0;background-color: transparent;padding: 14px 20px;width: 80%;margin-top: 10px;}
+
+textarea.input-text {
+    display: block;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    background-color: transparent;
+    padding: 14px 20px;
+    margin-top: 10px;
+}
+
+p.input-line.center-input {
+    width: 89%;
+}
+
+#submit-go {
+    background: rgb(74, 35, 104);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    width: 315.785px;
+    height: 49.1166px;
+}
+
+#button-subit {
+    text-align: center;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.black-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0000008c;
+}
+
+#header-info h1, #header-forte h1, #header-PROCEDURE h1,#header-rate h1 {
+    margin: 40px 0;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(74, 35, 104);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+.background-load {
+    width: 90%;
+    height: 196.215px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+.box-1 .background-load {
+    background-image: url("src/sale-dollar-sign.jpg");
+}
+
+.box-2 .background-load {
+    background-image: url("src/sp-3-3.png");
+}
+
+.box-3 .background-load {
+    background-image: url("src/cttc.png");
+}
+
+.item-box {
+    display: inline-block;
+    width: 32.3333%;
+}
+
+.header-item h3 {
+    color: rgb(74, 35, 104);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.text-item {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button-popup {
+    margin: 20px 0;
+    text-align: center;
+}
+
+button.button-click {
+    background-color: rgb(74, 35, 104);
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    width: 154.925px;
+    height: 33.5824px;
+    border-radius: 5px;
+}
+
+button.button-click:hover {
+    background: black;
+    cursor: pointer;
+}
+
+.item-forte {
+    width: 32.3333%;
+    display: inline-block;
+    position: relative;
+}
+
+.img-item-forte {
+    width: 311.976px;
+    height: 164.112px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    pointer-events: none;
+}
+
+.text-item-forte {
+    position: absolute;
+    top: 59px;
+    width: 80%;
+    left: 29px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.item-one .img-item-forte {
+    background-image: url("src/cover_tpbank_livebank.jpg");
+}
+
+.item-two .img-item-forte {
+    background-image: url("src/thechap-20200229034818.jpg");
+}
+
+.item-three .img-item-forte {
+    background-image: url("src/giaingan-20200229035055.jpg");
+}
+
+.item-four .img-item-forte {
+    background-image: url("src/laisuatvaygiam-20200229035116.jpg");
+}
+
+.item-five .img-item-forte {
+    background-image: url("src/hamuctragop-20200229035147.jpg");
+}
+
+.item-six .img-item-forte {
+    background-image: url("src/capthe-20200229035337.jpg");
+}
+
+.item-forte .black-overlay {
+    width: 311.976px;
+}
+
+.item-six .text-item-forte {
+    top: 35px;
+}
+
+.number-left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #4a2368;
+    margin-right: 20px;
+    border-radius: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+.item-PROCEDURE .text-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    line-height: 28px;
+}
+
+.item-PROCEDURE {
+    margin-bottom: 30px;
+}
+
+span {}
+
+p.text-item span {
+    line-height: 15px;
+}
+
+#submit-go:hover {
+    background: black;
+    cursor: pointer;
+}
+
+.left-quest-colum {
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    position: relative;
+}
+
+.right-quest-colum {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.image-quest-left {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    pointer-events: none;
+    background-image: url("src/thumb_bocaokhaitruong-20200224095649.jpg");
+    width: 100%;
+    height: 600px;
+}
+
+p.button-register.left-button {
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    text-align: center;
+}
+
+.title-quest-right h3 {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(74, 35, 104);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+p.text-down {
+    margin: 10px 0;
+}
+
+.box-item-quest-header {
+    background: #4a2368;
+    color: white;
+    padding: 10px 5px;
+}
+
+.box-item-quest-content {
+    padding: 5px;
+    border: 1px solid #ccc;
+    line-height: 27px;
+}
+
+.title-quest-left {
+    position: absolute;
+    top: 41%;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    left: 21px;
+}
+
+h6.ladi-headline {
+    margin-top: -28px;
+    color: #4a2368;
+    font-size: 18px;
+    width: 70%;
+    margin: -31px auto 22px auto;
+    text-align: center;
+}
+
+.item-box-rate {
+    width: 32.33333%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item-rate-image {
+    border-radius: 220px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-position: center center;
+    background-repeat: repeat;
+    width: 84px;
+    height: 79.5px;
+    margin: 10px auto;
+}
+
+.item-rate-one .item-rate-image {
+    background-image: url("src/phong-thuy-van-phong-cho-sep-nu-20200229042941.jpg");
+}
+
+.item-rate-two .item-rate-image {
+    background-image: url("src/tuyen-nu-nhan-vien-van-phong-xuat-khau-lao-dong-singapore-20200229043457.jpg");
+}
+
+.item-rate-three .item-rate-image {
+    background-image: url("src/photo1530673314601-15306733146011622277614-20200229043524.jpg");
+}
+
+.item-rate-image-rate {
+    width: 129.886px;
+    height: 28.499px;
+    background-image: url("src/bintang-lima-png-3-1-20200229042753.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    pointer-events: none;
+    margin: 10px auto;
+}
+
+.item-rate-text {
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p.text-info-rate {
+    height: 90px;
+    text-align: left;
+}
+
+p.bold-text-rate {
+    color: #4a2368;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fotter-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4a2368;
+    z-index: -1;
+}
+
+#fotter-page {
+    height: 500px;
+    position: relative;
+}
+
+div#main-rate {
+    margin-bottom: 50px;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 6;
+}
+
+.logo-fotter {
+    display: block;
+    height: 80px;
+    margin: 10px;
+    top: 8px;
+    position: relative;
+}
+
+.logo-fotter .ladi-image-background {
+    width: 200px;
+    height: 73.1034px;
+    background-image: url(src/tpbank-logo.png);
+}
+
+.footer-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.fotter-contact {
+    display: inline-block;
+    width: 48%;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+.title-contact h3,.title-about h3 {
+    color: rgb(232, 106, 48);
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.text-contact {
+    margin-top: 20px;
+    line-height: 35px;
+    color: white;
+}
+
+.text-contact a {
+    color: burlywood;
+}
+
+.fotter-button {
+    display: inline-block;
+    width: 45%;
+}
+
+.content-about {
+    line-height: 80px;
+    text-align: center;
+}
+
+.button-element {
+    color: white;
+}
+
+.button-element:hover {
+    padding: 0!important;
+}
