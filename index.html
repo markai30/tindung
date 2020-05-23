@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
   <head>
 		<meta charset="UTF-8">
     <title>TPBank - Vay Vốn Tín Chấp</title>
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <meta http-equiv="Expires" content="-1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <meta name="keywords" content="vaytindung, vaynganhang, vayvon">
     <meta name="description" content="0962.937.215 - Hãy alo cho chúng tôi để được tư vấn vay vốn tốt nhất.">
     <link rel="canonical" href="https://www.vayvontinchap.com.vn" />
     <meta property="og:image" content="src/og-image.jpeg">
-    <meta property="og:description" content="0962.937.215 - Hãy alo cho chúng tôi để được tư vấn vay vốn tốt nhất." />
+    <meta property="og:description" content="0933.893.712 - Hãy alo cho chúng tôi để được tư vấn vay vốn tốt nhất." />
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" type="image/png" href="src/icont.png"/>
-    <link rel="dns-prefetch">
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open Sans:bold,regular|Montserrat:bold,regular|Roboto:bold,regular&display=swap" as="style" onload="this.onload = null;this.rel = 'stylesheet';">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open%20Sans:bold,regular%7CMontserrat:bold,regular%7CRoboto:bold,regular&display=swap" as="style" onload="this.onload = null;this.rel = 'stylesheet';">
 		<link rel="stylesheet" href="style.css">
+		<script src="jquery.min.js"></script>
   </head>
   <body>
 		<div class="overlay-image">
@@ -97,7 +96,7 @@
 						<div class="ladi-button">
 							<div class="ladi-button-background"></div>
 							<div id="BUTTON_TEXT660" class="main-element">
-								<p class="ladi-headline button-register">ĐĂNG KÝ&nbsp; NGAY</p>
+								<p class="button-element button-Register">ĐĂNG KÝ&nbsp; NGAY</p>
 							</div>
 						</div>
 					</div>
@@ -105,63 +104,62 @@
 			</div>
 			
 			<div id="main-form">
-				<div id="title-form">
-					<p class="title-text-form title-1">Đăng ký để được tư vấn miễn phí</p>
-					<p class="title-text-form title-2">Quý khách vui lòng điền thông tin dưới đây để yêu cầu tư vấn.</p>				
-				</div>
-				<div id="input-form">
-				
-					<p class="input-line left-input">
-						<label>Tên của bạn (*)
-							<input type="text" name="name-user" class="input-text name-text" placeholder="Nhập tên của bạn" value=""/>
-						</label>
-					</p>
+				<form autocomplete="off" method="post" class="ladi-form">
+					<div id="title-form">
+						<p class="title-text-form title-1">Đăng ký để được tư vấn miễn phí</p>
+						<p class="title-text-form title-2">Quý khách vui lòng điền thông tin dưới đây để yêu cầu tư vấn.</p>				
+					</div>
+					<div id="input-form">
+						<p class="input-line left-input">
+							<label>Tên của bạn (*)
+								<input type="text" name="nameUser" required="" class="input-text name-text" placeholder="Nhập tên của bạn" value=""/>
+							</label>
+						</p>
+						
+						<p class="input-line right-input">
+							<label>Số điện thoại (*)
+								<input autocomplete="off" required="" class="input-text phone-text" tabindex="1" name="phoneUser" type="tel" placeholder="Nhập số điện thoại của bạn" pattern="[0-9]{9,12}" value=""/>
+							</label>
+						</p>
+						
+						<p class="input-line left-input">
+							<label>Địa chỉ (*)
+								<input type="text" name="adressUser" required="" class="input-text adress-text" placeholder="Nhập địa chỉ của bạn" value=""/>
+							</label>
+						</p>
+						
+						<p class="input-line left-input">
+							<label>CMND (*)
+								<input autocomplete="off" tabindex="7" name="CMNDUser" required="" class="input-text cmnd-text" type="text" placeholder="Nhập CMND của bạn" value="">
+							</label>
+						</p>
+										
+						<p class="input-line left-input">
+							<label>Hình thức vay
+								<select tabindex="8" name="typeMoney" required="" class="input-text select-input">
+									<option value="0">Chọn hình thức vay</option>
+									<option value="1">Vay theo lương</option>
+									<option value="2">Vay theo hóa đơn điện nước</option>
+									<option value="3">Vay theo hợp đồng tín dụng khác</option>
+								</select>
+							</label>
+						</p>
+						
+						<p class="input-line right-input">
+							<label>Số tiền vay (*)
+								<input autocomplete="off" tabindex="6" name="numberMoney" required="" class="input-text number-money" type="text" placeholder="Nhập số tiền cần vay" value="">
+							</label>
+						</p>
+						
+						<p class="input-line center-input">
+							<textarea autocomplete="off" tabindex="1" name="message" class="input-text msg-text" placeholder="Để lại lời nhắn cho chúng tôi"></textarea>
+						</p>					
+					</div>
 					
-					<p class="input-line right-input">
-						<label>Số điện thoại (*)
-							<input autocomplete="off" class="input-text phone-text" tabindex="1" name="phone-user" required="" class="ladi-form-control" type="tel" placeholder="Nhập số điện thoại của bạn" pattern="[0-9]{9,12}" value=""/>
-						</label>
-					</p>
-					
-					<p class="input-line left-input">
-						<label>Địa chỉ (*)
-							<input type="text" name="adress-user" class="input-text adress-text" placeholder="Nhập địa chỉ của bạn" value=""/>
-						</label>
-					</p>
-					
-					<p class="input-line left-input">
-						<label>CMND (*)
-							<input autocomplete="off" tabindex="7" name="a" class="input-text cmnd-text" type="text" placeholder="Nhập CMND của bạn" value="">
-						</label>
-					</p>
-									
-					<p class="input-line left-input">
-						<label>Hình thức vay
-							<select tabindex="8" name="type-money" required="" class="input-text select-input">
-								<option value="">Chọn hình thức vay</option>
-								<option value="Vay theo lương">Vay theo lương</option>
-								<option value="Vay theo hóa đơn điện nước">Vay theo hóa đơn điện nước</option>
-								<option value="Vay theo hợp đồng tín dụng khác">Vay theo hợp đồng tín dụng khác</option>
-							</select>
-						</label>
-					</p>
-					
-					<p class="input-line right-input">
-						<label>Số tiền vay (*)
-							<input autocomplete="off" tabindex="6" name="number-money" required="" class="input-text number-money" type="number" placeholder="Nhập số tiền cần vay" value="">
-						</label>
-					</p>
-					
-					<p class="input-line center-input">
-						<textarea autocomplete="off" tabindex="1" name="message" class="input-text msg-text" placeholder="Để lại lời nhắn cho chúng tôi"></textarea>
-					</p>
-					
-				</div>
-				
-				<div id="button-subit">
-					<button id="submit-go">Hoàn Tất</button>
-				</div>
-				
+					<div id="button-subit">
+						<button id="submit-go" type="submit">Hoàn Tất</button>
+					</div>
+				</form>
 			</div>
 			
 			<div id="center-info">
@@ -181,7 +179,7 @@
 						Không cần thế chấp tài sản. Hồ sơ thủ tục nhanh gọn. Hỗ trợ vay lên đến 8 – 10 lần lương. Lãi suất ưu đãi chỉ từ 1,53%/tháng. Thời hạn vay từ 6 - 36 tháng.
 						</div>
 						<div class="button-popup">
-							<button class="button-click salary-btn">XEM THÊM</button>
+							<button class="button-click salary-btn" onclick="popup('SALARY-content')">XEM THÊM</button>
 						</div>
 					</div>
 					
@@ -196,7 +194,7 @@
 						Hỗ trợ vay lên đến 50 lần số tiền điện phải trả hàng tháng. Thời hạn vay linh động từ 6 đến 36 tháng. Nhận tiền vay chỉ từ 3 đến 5 ngày kể từ lúc ký hợp đồng vay.
 						</div>
 						<div class="button-popup">
-							<button class="button-click bill-btn">XEM THÊM</button>
+							<button class="button-click bill-btn" onclick="popup('BILL-content')">XEM THÊM</button>
 						</div>
 					</div>
 					
@@ -211,7 +209,7 @@
 						Hỗ trợ vay lên đến 50 lần số tiền điện phải trả hàng tháng. Thời hạn vay linh động từ 6 đến 36 tháng. Nhận tiền vay chỉ từ 3 đến 5 ngày kể từ lúc ký hợp đồng vay.
 						</div>
 						<div class="button-popup">
-							<button class="button-click contract-btn">XEM THÊM</button>
+							<button class="button-click contract-btn" onclick="popup('CONTRACT-content')">XEM THÊM</button>
 						</div>
 					</div>
 					
@@ -266,24 +264,24 @@
 					<div class="item-PROCEDURE PROCEDURE-one">
 						<div class="number-left">1</div>
 						<p class="text-item">
-							<span style="font-weight: bold;">TƯ VẤN VÀ HỖ TRỢ</br></span>
-							Nhân viên ngân hàng hỗ trợ và tư vấn khách hàng về nhu cầu vay và lãi suất.</br>
+							<span style="font-weight: bold;">TƯ VẤN VÀ HỖ TRỢ<br></span>
+							Nhân viên ngân hàng hỗ trợ và tư vấn khách hàng về nhu cầu vay và lãi suất.<br>
 						</p>
 					</div>
 					
 					<div class="item-PROCEDURE PROCEDURE-one">
 						<div class="number-left">2</div>
 						<p class="text-item">
-							<span style="font-weight: bold;">CUNG CẤP HỒ SƠ VÀ GIẤY TỜ</br></span>
-							Khách hàng chuẩn bị và cung cấp giấy tờ cần thiết để được xét duyệt.</br>
+							<span style="font-weight: bold;">CUNG CẤP HỒ SƠ VÀ GIẤY TỜ<br></span>
+							Khách hàng chuẩn bị và cung cấp giấy tờ cần thiết để được xét duyệt.<br>
 						</p>
 					</div>
 
 					<div class="item-PROCEDURE PROCEDURE-one">
 						<div class="number-left">3</div>
 						<p class="text-item">
-							<span style="font-weight: bold;">THẨM ĐỊNH HỒ SƠ VÀ GIẢI NGÂN</br></span>
-							Khách hàng ký hợp đồng tín dụng và nhận tiền giải ngân từ TPBank qua thẻ ATM được cấp.</br>
+							<span style="font-weight: bold;">THẨM ĐỊNH HỒ SƠ VÀ GIẢI NGÂN<br></span>
+							Khách hàng ký hợp đồng tín dụng và nhận tiền giải ngân từ TPBank qua thẻ ATM được cấp.<br>
 						</p>
 					</div>
 					
@@ -292,11 +290,11 @@
 			
 			<div id="main-Quest">
 				<div class="left-quest-colum">
-					<div class="image-quest-left"></div>
+					<div class="image-quest-left"><div class="black-overlay"></div></div>
 					<div class="title-quest-left">
 						<h3 class="ladi-headline">Vay tín chấp TPBank</h3>
 					</div>
-					<p class="button-register left-button">ĐĂNG KÝ NGAY</p>
+					<p class="button-element button-Register left-button">ĐĂNG KÝ NGAY</p>
 				</div>
 				<div class="right-quest-colum">
 					<div class="title-quest-right">
@@ -364,6 +362,12 @@
 					
 				</div>
 			</div>
+			
+			<div class="fotter-top">
+				<a title="Gọi ngay để được tư vấn." href="tel:0933893712" class="button-overlay button-tel"><div class="button-image"></div></a>
+				<a title="Liên hệ để được tư vấn bằng Zalo" href="https://zalo.me/0933893712" target="_blank" class="button-overlay button-zalo"><div class="button-image"></div></a>
+			</div>
+			
 		</div>
 		
 		<div id="fotter-page">
@@ -378,12 +382,11 @@
 						<h3 class="ladi-headline">NGÂN HÀNG TPBANK</h3>
 					</div>
 					<div class="text-contact">
-						<p>© 2019 Ngân hàng Thương mại Cổ phần Tiên Phong</br>
+						<p>© 2019 Ngân hàng Thương mại Cổ phần Tiên Phong<br>
 						Địa chỉ: 19b Kỳ Đồng, Phường 9, Quận 3, TpHCM</p>
-						<p>Hotline:</br>
-							- Chị Ngà: <a href="tel:0962937215" class="phone-contact">0962 937 215</a></br>
-							- Anh Sơn: <a href="tel:0584641937" class="phone-contact">0584 641 937</a></br>
-							Email: batdongsanhcmbis@gmail.com</p>
+						<p>Hotline:<br>
+							- Chị Vy: <a href="tel:0933893712" class="phone-contact">0933 893 712</a><br>
+							Email: <a class="email-get" href="mailto:Vyho1993@gmail.com">Vyho1993@gmail.com</a></p>
 					</div>
 				</div>
 				<div class="right-contact fotter-contact">
@@ -431,11 +434,51 @@
 
 				</div>
 				
-				<div class="fotter-overlay">
-					<a href="tel:0962937215" class="button-overlay button-tel"><div class="button-image"></div></a>
-					<a href="https://zalo.me/0962937215" target="_blank" class="button-overlay button-zalo"><div class="button-image"></div></a>
+				<div class="fotter-overlay"></div>
+
+			</div>
+		</div>
+		<div class="popup-content">
+			<div class="popup-overlay" onclick="closepop(this)"></div>
+			<div class="content-body">
+				<div class="close-popup" onclick="closepop(this)">X</div>
+				<div class="title-popup">
+					<p class="title-text-popup SALARY-content">VAY THEO LƯƠNG</p>
+					<p class="title-text-popup BILL-content">VAY THEO HÓA ĐƠN ĐIỆN NƯỚC</p>
+					<p class="title-text-popup CONTRACT-content">VAY THEO HÓA ĐƠN ĐIỆN NƯỚC</p>
+				</div>
+				<div class="content-list">
+					<div class="list-left-popup list-content">
+						<div class="title-list">ĐIỀU KIỆN VAY</div>
+						<div class="text-list list-text-left">
+							<p class="item-list-popup text-one">Quốc tịch: Việt Nam</p>
+							<p class="item-list-popup text-two">Tuổi từ 18 đến 55 đối với Nữ </p>
+							<p class="item-list-popup text-three">Tuổi từ 18 đến 60 đối với Nam </p>
+							<p class="item-list-popup text-four">Tuổi từ 22 đến 55 đối với Nữ </p>
+							<p class="item-list-popup text-five">Tuổi từ 22 đến 60 đối với Nam </p>
+							<p class="item-list-popup text-six">Thu nhập trên 3 triệu/tháng </p>
+							<p class="item-list-popup text-seven">Thu nhập tính theo trung bình của 3 tháng gần nhất </p>
+							<p class="item-list-popup text-eight">KH không bị nợ xấu trong 5 năm gần nhất</p>
+						</div>
+					</div>
+					<div class="list-right-popup list-content">
+						<div class="title-list">HỒ SƠ VAY VỐN</div>
+						<div class="text-list list-text-right">
+							<p class="item-list-popup text-one">Sổ hộ khẩu (bản gốc) </p>
+							<p class="item-list-popup text-two">Bảo hiểm y tế (bản gốc) </p>
+							<p class="item-list-popup text-three">Chứng minh nhân dân (Căn cước công dân bản gốc) </p>
+							<p class="item-list-popup text-four">Bản sao HĐLĐ hoặc giấy tờ có giá trị tương đương </p>
+							<p class="item-list-popup text-five">Bản gốc Sao kê tài khoản lương/ Phiếu lương/Bảng lương/ Xác nhận lương phục vụ vay tín chấp (tùy theo loại hình doanh nghiệp)</p>
+							<p class="item-list-popup text-six">Hóa đơn điện/nước /internet của chính chủ/vợ/chồng/bố mẹ ruột/con ruột đứng tên</p>
+							<p class="item-list-popup text-seven">Hợp đồng/Lịch trả nợ của hợp đồng tín dụng khác đã trả trên 6 kỳ hoặc đã tất toán</p>
+						</div>								
+					</div>
+				</div>
+				<div class="submit-register-popuo">
+					<p class="button-element button-Register">ĐĂNG KÝ NGAY</p>
 				</div>
 			</div>
 		</div>
+		<script src="runtime.js"></script>
 	</body>
 </html>
