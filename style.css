@@ -246,6 +246,9 @@ body {
     /*background: #0000008c;*/
 }
 
+.img-item-forte .black-overlay {
+  background: #0000008c;
+}
 #header-info h1, #header-forte h1, #header-PROCEDURE h1,#header-rate h1 {
     margin: 40px 0;
     font-family: "Open Sans", sans-serif;
