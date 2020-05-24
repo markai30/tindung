@@ -109,7 +109,7 @@ div#page-content {
     background-size: cover;
     background-attachment: scroll;
     background-origin: content-box;
-    background-image: url("src/huong_anh-20200229025418.jpg");
+    background-image: url("src/huong_anh.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     height: 559px;
@@ -128,6 +128,7 @@ div#page-content {
     line-height: 50;
     line-height: 50px;
     top: 290px;
+    display: none;
 }
 
 
@@ -243,7 +244,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0000008c;
+    /*background: #0000008c;*/
 }
 
 #header-info h1, #header-forte h1, #header-PROCEDURE h1,#header-rate h1 {
@@ -643,10 +644,11 @@ div#main-rate {
 
 .fotter-top {
     position: fixed;
-    bottom: 150px;
+    bottom: 100px;
     z-index: 9;
-    left: 20%;
-    right: 20%;
+    left: 10%;
+    right: 10%;
+    opacity: 0.7;
 }
 
 .button-tel {
@@ -984,7 +986,7 @@ p.button-Register.left-button {
 	}
 
 	#fotter-page {
-			height: 702px;
+			height: 730px;
 			width: 100%;
 			padding: 0 20px;
 	}
@@ -1031,6 +1033,11 @@ p.button-Register.left-button {
 			float: left;
 			width: 100%;
 			height: auto;
+	}
+	
+	.fotter-top {
+    left: 5px;
+    right: 5px;
 	}
 }
 
