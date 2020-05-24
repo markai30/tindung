@@ -127,8 +127,7 @@ div#page-content {
     text-align: center;
     line-height: 50;
     line-height: 50px;
-    top: 290px;
-    display: none;
+    top: 220px;
 }
 
 
@@ -798,6 +797,10 @@ p.item-list-popup:before {
 }
 
 .close-popup:hover {color: red;}
+
+#PARAGRAPH657,#PARAGRAPH658,#PARAGRAPH659 {
+    opacity: 0;
+}
 
 @media (min-width:768px) and (max-width: 900px){
 
