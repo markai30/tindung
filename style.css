@@ -286,6 +286,7 @@ body {
 .item-box {
     display: inline-block;
     width: 32.3333%;
+    vertical-align: top;
 }
 
 .header-item h3 {
@@ -300,6 +301,11 @@ body {
 .text-item {
     width: 90%;
     margin: 0 auto;
+    height: 120px;
+}
+
+.item-box .header-item {
+    height: 60px;
 }
 
 .button-popup {
