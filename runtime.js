@@ -37,7 +37,7 @@ function popup($name){
 }
 
 function callGoogleScript($param) {
-  var url = "https://script.google.com/macros/s/AKfycbzAXSP6ywLFV2jmEgZ7dl2JuLuhrB5jMfalHf3L3i9k3iopk8Q/exec?callback=ctrlq&";
+  var url = "https://script.google.com/macros/s/AKfycbzAXSP6ywLFV2jmEgZ7dl2JuLuhrB5jMfalHf3L3i9k3iopk8Q/exec?";
   var request = jQuery.ajax({
 		crossDomain: true,
 		url: url + $param,
